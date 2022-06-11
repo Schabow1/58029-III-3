@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BubbleSort.cs" />
+    <Compile Include="Dekompresja.cs" />
+    <Compile Include="Kompresja.cs" />
     <Compile Include="SC_58029_Controlls.cs" />
     <Compile Include="SC_58029_Form.cs">
       <SubType>Form</SubType>
