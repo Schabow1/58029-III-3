@@ -29,7 +29,13 @@ namespace _58029_III_3
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            this.sc_58029_Timer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
+            // 
+            // sc_58029_Timer
+            // 
+            this.sc_58029_Timer.Tick += new System.EventHandler(this.sc_58029_Timer_Tick);
             // 
             // SC_58029_Form
             // 
@@ -43,6 +49,8 @@ namespace _58029_III_3
         }
 
         #endregion
+
+        private System.Windows.Forms.Timer sc_58029_Timer;
     }
 }
 

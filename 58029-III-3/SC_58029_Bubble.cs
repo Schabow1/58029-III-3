@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace _58029_III_3
 {
-    class BubbleSort
+    class SC_58029_Bubble
     {
-        public static void Sort( ref int[] sc_58029_Tablica )
+        public static void SC_58029_Sort( ref int?[] sc_58029_Tablica )
         {
          
            
@@ -20,7 +15,7 @@ namespace _58029_III_3
                 {
                     if (sc_58029_Tablica[i] > sc_58029_Tablica[i + 1])
                     {
-                        int temp = sc_58029_Tablica[i];
+                        int? temp = sc_58029_Tablica[i];
                         sc_58029_Tablica[i] = sc_58029_Tablica[i + 1];
                         sc_58029_Tablica[i + 1] = temp;
                     }
